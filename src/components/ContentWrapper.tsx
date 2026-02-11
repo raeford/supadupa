@@ -17,7 +17,7 @@ export const ContentWrapper = () => {
               Thoughts
             </h2>
             <a
-              href="/thoughts/building-a-digital-mind"
+              href="/beginnings"
               className="box-border caret-transparent block leading-[17.1px] max-w-full opacity-90 -ml-2 mr-auto p-2 rounded-xl hover:text-zinc-900 hover:bg-black/0 hover:border-b-zinc-900 hover:border-l-neutral-500 hover:border-r-neutral-500 hover:border-t-neutral-500"
             >
               <div className="text-zinc-800 font-medium box-border caret-transparent lowercase mb-1">
