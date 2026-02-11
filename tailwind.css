@@ -1,13 +1,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  /* This font could not be included automatically because of legal reasons. Please add it manually or switch to another font */
-  font-family: 'SN Pro';
-  font-weight: 200 900;
-  font-style: normal;
-}
-
 @tailwind base;
 
 @layer base {
