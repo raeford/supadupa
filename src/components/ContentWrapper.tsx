@@ -4,11 +4,11 @@ export const ContentWrapper = () => {
       <section className="box-border caret-transparent">
         <div className="text-neutral-600 box-border caret-transparent gap-x-[27px] flex flex-col gap-y-[27px] mt-[54px] md:gap-x-9 md:flex-row md:gap-y-9">
           <div className="relative box-border caret-transparent max-w-full w-[297px] z-[2] -ml-4 mb-5">
-            <img
-              alt="Supa Dupa logo"
-              src="/images/supadupa-logo.png"
-              className="box-border h-[420px] max-w-full w-full object-contain"
-            />
+              <img
+                alt="Supa Dupa logo"
+                src="images/supadupa-logo.png"
+                className="box-border h-[420px] max-w-full w-full object-contain"
+              />
           </div>
         </div>
         <div className="text-neutral-600 box-border caret-transparent gap-x-[27px] flex flex-col gap-y-[27px] mt-[54px] md:gap-x-9 md:flex-row md:gap-y-9">
@@ -17,7 +17,7 @@ export const ContentWrapper = () => {
               Thoughts
             </h2>
             <a
-              href="/beginnings"
+              href="beginnings"
               className="box-border caret-transparent block leading-[17.1px] max-w-full opacity-90 -ml-2 mr-auto p-2 rounded-xl hover:text-zinc-900 hover:bg-black/0 hover:border-b-zinc-900 hover:border-l-neutral-500 hover:border-r-neutral-500 hover:border-t-neutral-500"
             >
               <div className="text-zinc-800 font-medium box-border caret-transparent lowercase mb-1">

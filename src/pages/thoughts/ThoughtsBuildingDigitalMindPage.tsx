@@ -6,11 +6,11 @@ export const ThoughtsBuildingDigitalMindPage = () => {
       <nav className="absolute text-zinc-500 text-[14.4px] box-border caret-transparent leading-[23.04px] text-left w-full z-[120] mt-9 mx-[8%] top-0 md:mx-9">
         <a
           aria-label="Home"
-          href="/"
+          href="./"
           className="box-border caret-transparent leading-[17.1px] hover:text-zinc-900 hover:border-b-zinc-900 hover:border-l-neutral-500 hover:border-r-neutral-500 hover:border-t-neutral-500"
         >
           <img
-            src="/images/supadupa-color-a.png"
+            src="images/supadupa-color-a.png"
             alt="Supa Dupa logo"
             className="box-border caret-transparent -ml-1 h-10 w-auto"
           />
