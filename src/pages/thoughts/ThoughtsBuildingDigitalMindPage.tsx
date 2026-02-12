@@ -1,8 +1,12 @@
 import { Article } from "@/pages/thoughts/Article";
 
-export const ThoughtsBuildingDigitalMindPage = () => {
+type ThoughtsBuildingDigitalMindPageProps = {
+  isDarkMode: boolean;
+};
+
+export const ThoughtsBuildingDigitalMindPage = ({ isDarkMode }: ThoughtsBuildingDigitalMindPageProps) => {
   return (
-    <div className="relative box-border caret-transparent min-h-[1000px] overflow-hidden">
+    <div className="relative box-border caret-transparent min-h-[1000px] overflow-hidden dark:bg-[#424530] dark:text-white">
       <nav className="absolute text-zinc-500 text-[14.4px] box-border caret-transparent leading-[23.04px] text-left w-full z-[120] mt-9 mx-[8%] top-0 md:mx-9">
         <a
           aria-label="Home"
@@ -10,7 +14,7 @@ export const ThoughtsBuildingDigitalMindPage = () => {
           className="box-border caret-transparent leading-[17.1px] hover:text-zinc-900 hover:border-b-zinc-900 hover:border-l-neutral-500 hover:border-r-neutral-500 hover:border-t-neutral-500"
         >
           <img
-            src="images/supadupa-color-a.png"
+            src={isDarkMode ? "images/supa-dupa-logo-darkmode.png" : "images/supadupa-color-a.png"}
             alt="Supa Dupa logo"
             className="box-border caret-transparent -ml-1 h-10 w-auto"
           />
@@ -30,7 +34,7 @@ export const ThoughtsBuildingDigitalMindPage = () => {
               <img
                 src="https://c.animaapp.com/mlihhxal1TBSah/assets/icon-2.svg"
                 alt="Icon"
-                className="box-border caret-transparent h-[30px] w-[30px]"
+                className={`box-border caret-transparent h-[30px] w-[30px] ${isDarkMode ? "invert" : ""}`}
               />
             </a>
             <a
@@ -40,7 +44,7 @@ export const ThoughtsBuildingDigitalMindPage = () => {
               <img
                 src="https://c.animaapp.com/mlihhxal1TBSah/assets/icon-3.svg"
                 alt="Icon"
-                className="box-border caret-transparent h-[30px] w-[30px]"
+                className={`box-border caret-transparent h-[30px] w-[30px] ${isDarkMode ? "invert" : ""}`}
               />
             </a>
             <a
@@ -50,7 +54,7 @@ export const ThoughtsBuildingDigitalMindPage = () => {
               <img
                 src="https://c.animaapp.com/mlihhxal1TBSah/assets/icon-4.svg"
                 alt="Icon"
-                className="box-border caret-transparent h-[30px] w-[30px]"
+                className={`box-border caret-transparent h-[30px] w-[30px] ${isDarkMode ? "invert" : ""}`}
               />
             </a>
             <a
@@ -60,13 +64,13 @@ export const ThoughtsBuildingDigitalMindPage = () => {
               <img
                 src="https://c.animaapp.com/mlihhxal1TBSah/assets/icon-5.svg"
                 alt="Icon"
-                className="box-border caret-transparent h-[30px] w-[30px]"
+                className={`box-border caret-transparent h-[30px] w-[30px] ${isDarkMode ? "invert" : ""}`}
               />
             </a>
           </div>
           <a
             href="mailto:hello@supadupa.tools"
-            className="inline-flex h-[30px] items-center rounded-xl border border-zinc-300 bg-zinc-100 px-3 text-[14px] leading-none text-zinc-900 shadow-[inset_0_1px_0_rgba(255,255,255,0.85)] hover:bg-white"
+            className="inline-flex h-[30px] items-center rounded-xl border border-zinc-300 bg-zinc-100 px-3 text-[14px] leading-none text-zinc-900 shadow-[inset_0_1px_0_rgba(255,255,255,0.85)] hover:bg-white dark:border-zinc-600 dark:bg-[#2d2f22] dark:text-white dark:shadow-none dark:hover:bg-[#383b2a]"
           >
             Get in touch &#8250;
           </a>
