@@ -1,9 +1,13 @@
 import { BackgroundWrapper } from "@/components/BackgroundWrapper";
 
-export const PageContainer = () => {
+type PageContainerProps = {
+  isDarkMode: boolean;
+};
+
+export const PageContainer = ({ isDarkMode }: PageContainerProps) => {
   return (
     <div className="box-border caret-transparent">
-      <BackgroundWrapper />
+      <BackgroundWrapper isDarkMode={isDarkMode} />
     </div>
   );
 };

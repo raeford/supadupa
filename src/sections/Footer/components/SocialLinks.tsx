@@ -1,4 +1,8 @@
-export const SocialLinks = () => {
+type SocialLinksProps = {
+  isDarkMode: boolean;
+};
+
+export const SocialLinks = ({ isDarkMode }: SocialLinksProps) => {
   return (
     <div className="box-border caret-transparent -ml-2 flex flex-row items-center gap-1.5">
       <a
@@ -8,7 +12,7 @@ export const SocialLinks = () => {
         <img
           src="https://c.animaapp.com/mli9fyeniFSvCC/assets/icon-2.svg"
           alt="Icon"
-          className="box-border caret-transparent h-[30px] w-[30px]"
+          className={`box-border caret-transparent h-[30px] w-[30px] ${isDarkMode ? "invert" : ""}`}
         />
       </a>
       <a
@@ -18,7 +22,7 @@ export const SocialLinks = () => {
         <img
           src="https://c.animaapp.com/mli9fyeniFSvCC/assets/icon-3.svg"
           alt="Icon"
-          className="box-border caret-transparent h-[30px] w-[30px]"
+          className={`box-border caret-transparent h-[30px] w-[30px] ${isDarkMode ? "invert" : ""}`}
         />
       </a>
       <a
@@ -28,7 +32,7 @@ export const SocialLinks = () => {
         <img
           src="https://c.animaapp.com/mli9fyeniFSvCC/assets/icon-4.svg"
           alt="Icon"
-          className="box-border caret-transparent h-[30px] w-[30px]"
+          className={`box-border caret-transparent h-[30px] w-[30px] ${isDarkMode ? "invert" : ""}`}
         />
       </a>
       <a
@@ -38,7 +42,7 @@ export const SocialLinks = () => {
         <img
           src="https://c.animaapp.com/mli9fyeniFSvCC/assets/icon-5.svg"
           alt="Icon"
-          className="box-border caret-transparent h-[30px] w-[30px]"
+          className={`box-border caret-transparent h-[30px] w-[30px] ${isDarkMode ? "invert" : ""}`}
         />
       </a>
     </div>

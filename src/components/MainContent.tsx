@@ -1,9 +1,13 @@
 import { ContentWrapper } from "@/components/ContentWrapper";
 
-export const MainContent = () => {
+type MainContentProps = {
+  isDarkMode: boolean;
+};
+
+export const MainContent = ({ isDarkMode }: MainContentProps) => {
   return (
     <main className="box-border caret-transparent">
-      <ContentWrapper />
+      <ContentWrapper isDarkMode={isDarkMode} />
     </main>
   );
 };
