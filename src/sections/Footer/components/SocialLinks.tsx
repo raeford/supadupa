@@ -1,6 +1,6 @@
 export const SocialLinks = () => {
   return (
-    <div className="box-border caret-transparent -ml-2 mb-2.5 flex flex-row items-center gap-1.5">
+    <div className="box-border caret-transparent -ml-2 flex flex-row items-center gap-1.5">
       <a
         href="https://twitter.com/tobiaswhetton"
         className="box-border caret-transparent leading-[17.1px] p-0.5 hover:text-zinc-900 hover:border-b-zinc-900"
