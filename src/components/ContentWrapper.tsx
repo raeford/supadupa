@@ -85,39 +85,30 @@ export const ContentWrapper = ({ isDarkMode }: ContentWrapperProps) => {
             <h2 className="text-neutral-400 text-[12.6px] font-medium box-border caret-transparent tracking-[4.725px] leading-[30px] uppercase my-[10.458px] dark:text-zinc-300">
               FUN
             </h2>
-            <a
-              href="/icons"
-              className="box-border caret-transparent block leading-[17.1px] max-w-full opacity-90 -ml-2 mr-auto p-2 rounded-xl hover:text-zinc-900 hover:bg-black/0 hover:border-b-zinc-900 hover:border-l-neutral-500 hover:border-r-neutral-500 hover:border-t-neutral-500"
-            >
+            <div className="box-border caret-transparent block leading-[17.1px] max-w-full opacity-90 -ml-2 mr-auto p-2 rounded-xl">
               <div className="text-zinc-800 font-medium box-border caret-transparent lowercase mb-1 dark:text-white">
                 notion templates
               </div>
               <div className="text-neutral-500 text-[14.4px] box-border caret-transparent max-w-full text-ellipsis lowercase text-nowrap overflow-hidden dark:text-zinc-200">
                 overly complicated trackers
               </div>
-            </a>
-            <a
-              href="https://hearthandout.com/"
-              className="box-border caret-transparent block leading-[17.1px] max-w-full opacity-90 -ml-2 mr-auto p-2 rounded-xl hover:text-zinc-900 hover:bg-black/0 hover:border-b-zinc-900 hover:border-l-neutral-500 hover:border-r-neutral-500 hover:border-t-neutral-500"
-            >
+            </div>
+            <div className="box-border caret-transparent block leading-[17.1px] max-w-full opacity-90 -ml-2 mr-auto p-2 rounded-xl">
               <div className="text-zinc-800 font-medium box-border caret-transparent lowercase mb-1 dark:text-white">
                 carol font
               </div>
               <div className="text-neutral-500 text-[14.4px] box-border caret-transparent max-w-full text-ellipsis lowercase text-nowrap overflow-hidden dark:text-zinc-200">
                 fond love of parents hanwritting
               </div>
-            </a>
-            <a
-              href="https://playexposure.com/"
-              className="box-border caret-transparent block leading-[17.1px] max-w-full opacity-90 -ml-2 mr-auto p-2 rounded-xl hover:text-zinc-900 hover:bg-black/0 hover:border-b-zinc-900 hover:border-l-neutral-500 hover:border-r-neutral-500 hover:border-t-neutral-500"
-            >
+            </div>
+            <div className="box-border caret-transparent block leading-[17.1px] max-w-full opacity-90 -ml-2 mr-auto p-2 rounded-xl">
               <div className="text-zinc-800 font-medium box-border caret-transparent lowercase mb-1 dark:text-white">
                 tally
               </div>
               <div className="text-neutral-500 text-[14.4px] box-border caret-transparent max-w-full text-ellipsis lowercase text-nowrap overflow-hidden dark:text-zinc-200">
                 cpe tracker for professionals
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </section>
