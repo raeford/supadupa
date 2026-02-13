@@ -1,6 +1,6 @@
 {
-  "name": "supa dupa tools",
-  "short_name": "supa dupa",
+  "name": "supadupa",
+  "short_name": "supadupa",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#0ea192",
+  "theme_color": "#0ea193",
+  "background_color": "#ffffff",
   "display": "standalone"
 }
